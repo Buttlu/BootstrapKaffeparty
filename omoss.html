@@ -10,6 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
         defer></script>
+    <style>
+        * {
+            letter-spacing: .5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -40,39 +45,83 @@
     </header>
 
     <main>
-        <h1>Om oss</h1>
+        <h1 class="text-center mt-5 mb-5">Om oss</h1>
         <div class="container">
-            <h2>Information om företaget</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer felis sem, ullamcorper et nisl at,
-                mollis dignissim
-                nibh. Nunc pretium enim quis odio tempus, luctus volutpat nisl posuere. Vestibulum eu ex gravida, tempor
-                dui sed,
-                molestie ex. Sed id est lorem. Suspendisse lectus nunc, viverra porta ex et, porta mollis elit. Nam at
-                diam pulvinar,
-                convallis dui nec, finibus enim. Sed in nunc quam. Fusce lacinia venenatis sem, sit amet scelerisque
-                ipsum venenatis sit
-                amet. Ut nec turpis porttitor, tincidunt quam eget, viverra ante. Suspendisse mollis justo ex. Phasellus
-                dignissim
-                fringilla iaculis. Cras eu ipsum lectus. Vestibulum mi velit, vestibulum non convallis at, facilisis nec
-                orci. Proin id
-                fermentum arcu.</p>
-            <p>Nulla sodales laoreet scelerisque. Sed at ornare felis. Sed maximus dolor ante, mollis elementum velit
-                elementum ac.
-                Fusce at ligula est. Curabitur id felis vel arcu laoreet tempor eget eu lacus. Sed convallis bibendum
-                rhoncus. Ut ligula
-                purus, convallis sed condimentum a, commodo et ante. Suspendisse non ultricies eros. Proin faucibus sem
-                purus, id
-                aliquam purus volutpat a. Praesent ipsum sem, mattis at tincidunt at, tempor aliquam lorem. Vestibulum
-                vel augue sed
-                diam vulputate facilisis vitae vel nisi. Donec egestas a leo sit amet sagittis. Donec gravida euismod
-                nunc eu
-                ullamcorper.</p>
-        </div>
-        <div class="container">
-            <h2>VD</h2>
-        </div>
-        <div class="container">
-            <h2>HR-ansvarig</h2>
+            <div class="row">
+                <div class="col">
+                    <h2>Information om företaget</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer felis sem, ullamcorper et nisl
+                        at,
+                        mollis dignissim
+                        nibh. Nunc pretium enim quis odio tempus, luctus volutpat nisl posuere. Vestibulum eu ex
+                        gravida,
+                        tempor
+                        dui sed,
+                        molestie ex. Sed id est lorem. Suspendisse lectus nunc, viverra porta ex et, porta mollis elit.
+                        Nam
+                        at
+                        diam pulvinar,
+                        convallis dui nec, finibus enim. Sed in nunc quam. Fusce lacinia venenatis sem, sit amet
+                        scelerisque
+                        ipsum venenatis sit
+                        amet. Ut nec turpis porttitor, tincidunt quam eget, viverra ante. Suspendisse mollis justo ex.
+                        Phasellus
+                        dignissim
+                        fringilla iaculis. Cras eu ipsum lectus. Vestibulum mi velit, vestibulum non convallis at,
+                        facilisis
+                        nec
+                        orci. Proin id
+                        fermentum arcu.</p>
+                    <p>Nulla sodales laoreet scelerisque. Sed at ornare felis. Sed maximus dolor ante, mollis elementum
+                        velit
+                        elementum ac.
+                        Fusce at ligula est. Curabitur id felis vel arcu laoreet tempor eget eu lacus. Sed convallis
+                        bibendum
+                        rhoncus. Ut ligula
+                        purus, convallis sed condimentum a, commodo et ante. Suspendisse non ultricies eros. Proin
+                        faucibus
+                        sem
+                        purus, id
+                        aliquam purus volutpat a. Praesent ipsum sem, mattis at tincidunt at, tempor aliquam lorem.
+                        Vestibulum
+                        vel augue sed
+                        diam vulputate facilisis vitae vel nisi. Donec egestas a leo sit amet sagittis. Donec gravida
+                        euismod
+                        nunc eu
+                        ullamcorper.
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-evenly">
+                <div class="col d-flex justify-content-center">
+                    <!-- Image: https://unsplash.com/photos/a-man-sitting-on-a-couch-using-a-laptop-computer-9Y5kAd6TdVs -->
+                    <div class="card" style="width: 28rem;">
+                        <img src="bilder/VD.jpg" alt="Bild på VD" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">VD</h5>
+                            <p class="card-text">
+                                <span class="d-block">Förnamn Efternamn</span>
+                                <a href="#" class="d-block">mail@domain.com</a>
+                                <span class="d-block">+46 11 111 11 11</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <!-- Image: https://unsplash.com/photos/woman-in-black-long-sleeve-shirt-holding-black-smartphone-pMqsNUZlzCY -->
+                    <div class="card" style="width: 28rem;">
+                        <img src="bilder/HR.jpg" alt="Bild på VD" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">HR-ansvarig</h5>
+                            <p class="card-text">
+                                <span class="d-block">Förnamn Efternamn</span>
+                                <a href="#" class="d-block">mail@domain.com</a>
+                                <span class="d-block">+46 11 111 11 11</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
