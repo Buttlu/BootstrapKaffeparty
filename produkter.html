@@ -95,10 +95,13 @@
     <style>
         :root {
             --card-width: 35rem;
+            --bs-body-bg: #693F26;
+            --bs-tertiary-bg-rgb: 81, 53, 35;
         }
 
         [data-bs-theme="light"] {
-            --bs-body-bg: rgb(253, 254, 255);
+            --bs-tertiary-bg-rgb: 213, 194, 165;
+            --bs-body-bg: #eee2cb;
         }
 
         * {
@@ -346,15 +349,15 @@
                 <div class="col-xxl-4 shadow pb-3">
                     <ul class="nav nav-tabs w-100" id="ServiceInfoTabs" role="tablist">
                         <li class="nav-item w-50" role="presentation">
-                            <button class="nav-link w-100 active" id="company-tab" data-bs-toggle="tab"
-                                data-bs-target="#company-tab-pane" type="button" role="tab"
-                                aria-controls="company-tab-pane" aria-selected="true">
+                            <button class="nav-link w-100 text-body-emphasis text-decoration-underline active"
+                                id="company-tab" data-bs-toggle="tab" data-bs-target="#company-tab-pane" type="button"
+                                role="tab" aria-controls="company-tab-pane" aria-selected="true">
                                 Företag
                             </button>
                         </li>
                         <li class="nav-item w-50" role="presentation">
-                            <button class="nav-link w-100" id="private-tab" data-bs-toggle="tab"
-                                data-bs-target="#private-tab-pane" type="button" role="tab"
+                            <button class="nav-link w-100 text-body-emphasis text-decoration-underline" id="private-tab"
+                                data-bs-toggle="tab" data-bs-target="#private-tab-pane" type="button" role="tab"
                                 aria-controls="private-tab-pane" aria-selected="false">
                                 Privatpersoner
                             </button>
